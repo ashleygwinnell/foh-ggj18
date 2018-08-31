@@ -1,0 +1,30 @@
+{
+	"name": "HTML5",
+	"folder": "html5",
+	"platform": "html5",
+	"clean": false,
+	"defines": [
+
+	],
+	"include_dirs": [
+
+	],
+	"libs": [
+
+	],
+
+	"modules": [
+		"core",
+		"audio",
+		"util"
+	],
+
+	"html5": {
+		"osx": {
+			"emscripten_dir": "~/Projects/emsdk-portable",
+			"emscripten_version": "1.35.0"
+		},
+   		"game_width": 796,
+        "game_height": 448
+    }
+}

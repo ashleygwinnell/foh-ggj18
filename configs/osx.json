@@ -1,0 +1,15 @@
+{
+	"name": "OS X",
+	"folder": "osx",
+	"platform": "osx",
+	"clean": false,
+	"defines": [
+
+	],
+	"include_dirs": [
+
+	],
+	"libs": [
+
+	]
+}

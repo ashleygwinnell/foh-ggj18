@@ -1,0 +1,67 @@
+{
+	"game": {
+		"name": "Pollen Patrol",
+		"name_safe": "pollenpatrol",
+		"description": "",
+
+		"class_name": "DefaultGame",
+		"orientation": "landscape",
+		"clearcolor": "#000000",
+		"version": "0.1.0",
+
+		"folders": {
+			"preproduction": "__preproduction",
+			"resources": "data",
+			"output": "build"
+		}
+	},
+	"developer": {
+		"name": "Force Of Habit, 2dforever, Spicy J Audio",
+		"name_safe": "forceofhabit"
+	},
+	"src_files": [
+		"src/main.cpp",
+		"src/DefaultGame.cpp",
+
+        "src/states/BlankState.cpp",
+		"src/states/InGameState.cpp",
+        "src/states/InstructionsState.cpp",
+        "src/states/MenuState.cpp",
+        "src/states/SplashState.cpp",
+        "src/states/SummaryState.cpp",
+
+        "src/objects/Object.cpp",
+        "src/objects/Player.cpp",
+        "src/objects/MyParticle.cpp",
+        "src/objects/ScrollObject.cpp",
+        "src/objects/EightWayMovementComponent.cpp",
+        "src/objects/Explosion.cpp",
+        "src/objects/Bullet.cpp",
+        "src/objects/Enemy.cpp",
+
+		"src/Resources.rc"
+	],
+	"mkdirs": [
+
+	],
+	"resources": {
+        "spritesheets": [
+            {
+                "name": "all",
+                "output_folder": "data",
+                "max_texture_width": 2048,
+                "max_texture_height": 2048,
+                "spacing": 1,
+                "output": "all",
+                "format": "JSON",
+                "files": [
+                	"__preproduction/sprites/",
+                	"__preproduction/sprites/character/",
+                	"__preproduction/sprites/effects/",
+                	"__preproduction/sprites/enemy/",
+                	"__preproduction/sprites/particles/"
+                ]
+            }
+        ]
+    }
+}
